@@ -1,0 +1,14 @@
+{
+	"name" : "gooey",
+	"url" : "https://github.com/bitDecayGames/gooey",
+	"license" : "MIT",
+	"tags": ["gui"],
+	
+    "description" : "An easier to use UI library for haxe flixel",
+    "version" : "0.1.0-alpha",
+	"releasenote" : "Initial attempt",
+	"contributors" : ["Kenoshen"],
+	"dependencies" : {
+		"flixel": "4.7.0"
+	}
+}
