@@ -6,6 +6,7 @@ import flixel.addons.ui.FlxUIButton;
 import flixel.addons.ui.FlxUISpriteButton;
 import flixel.addons.ui.interfaces.IFlxUIWidget;
 import flixel.group.FlxSpriteGroup;
+import flixel.system.FlxAssets.FlxGraphicAsset;
 import flixel.util.FlxColor;
 
 class MainMenu extends FlxSpriteGroup {
@@ -77,7 +78,7 @@ class MainMenu extends FlxSpriteGroup {
 class MainMenuItem {
 	public var name:String;
 	public var onSelect:Void->Void;
-	public var asset:flixel.system.FlxAssets.FlxGraphicAsset;
+	public var asset:FlxGraphicAsset;
 	public var color:FlxColor;
 
 	/**
