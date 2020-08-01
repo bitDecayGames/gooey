@@ -9,7 +9,7 @@ class Panel extends FlxSpriteGroup {
 	private topRight:FlxSprite;
 	private bottomRight:FlxSprite;
 	private bottomLeft:FlxSprite;
-	public function new(x:Float = 0.0, y:Float = 0.0, ?ninePatch:FlxGraphicAsset, ?color:FlxColor) {
+	public function new(x:Float = 0.0, y:Float = 0.0, width:Float = 10.0, height:Float 10.0, ?ninePatch:FlxGraphicAsset, ?color:FlxColor) {
 		super(x, y);
 	}
 
