@@ -12,6 +12,20 @@ import flixel.system.FlxAssets.FlxGraphicAsset;
 import flixel.ui.FlxButton;
 import flixel.util.FlxColor;
 
+/**
+	Example:
+
+	var menu = new QuickMenu(300, 200, [
+		// a custom 9-patch image
+		new QuickMenuItem("Hello 9 Patch", () -> trace("hello"), 500, 50, flixel.util.FlxColor.YELLOW, FlxUIAssets.IMG_BUTTON, 18, 18, NinePatchData.data(6, 6, 11, 11)),
+
+		// custom stretched image
+		new QuickMenuItem("Hello Stretchy", () -> trace("hello"), 500, 50, flixel.util.FlxColor.WHITE, FlxUIAssets.IMG_BUTTON_ARROW_DOWN, 18, 18),
+
+		// default ui button
+		new QuickMenuItem("Go To Main Menu", () -> FlxG.switchState(new MainMenuState())),
+	]);
+**/
 class QuickMenu extends FlxSpriteGroup {
 	public var options:QuickMenuOptions;
 
